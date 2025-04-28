@@ -1,0 +1,68 @@
+.navbar {
+    background-color: black;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .navbar > div:nth-child(2) {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-links span {
+    margin: 0 15px;
+    cursor: pointer;
+    font-size: 18px;
+    position: relative;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links span:hover {
+    color: #ffcc00;
+  }
+  
+  .nav-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-actions span {
+    margin-left: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Cart icon */
+  .nav-actions span:first-child {
+    font-size: 24px;
+  }
+  
+  /* Buynow button style */
+  .nav-actions span:last-child {
+    background-color: violet;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-left: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .nav-actions span:last-child:hover {
+    background-color: #b266ff; /* Darker violet on hover */
+    transform: scale(1.08); /* Slight zoom */
+    box-shadow: 0 4px 12px rgba(178, 102, 255, 0.6); /* Cute violet glow */
+  }
+  

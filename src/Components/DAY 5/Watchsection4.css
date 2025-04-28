@@ -1,0 +1,88 @@
+
+
+/* General container styling */
+.section4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+
+    
+    
+  }
+
+  
+  .section4 >img{
+   padding-left: 50px;
+  }
+  /* Left section styling (text content) */
+  .sec4-left {
+    flex: 1;
+    padding-left: 100px;
+
+    
+  }
+  
+  .sec4-left h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+    padding: 0px 150px;
+  }
+  
+  .sec4-left p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 50px;
+    padding: 0px 200px;
+  }
+  
+  /* Right section styling (image) */
+  .sec4-right img {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-right: 100px;
+    t;
+   
+    
+  }
+  
+  
+  /* Hover effect for image */
+  .sec4-left img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .section4 {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .sec4-left {
+      padding-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .sec4-left h3 {
+      font-size: 1.5rem;
+    }
+  
+    .sec4-left p {
+      font-size: 0.95rem;
+    }
+  
+    .sec4-right img {
+      width: 100%;
+    }
+  }
+  

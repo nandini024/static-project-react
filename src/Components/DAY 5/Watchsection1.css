@@ -1,0 +1,83 @@
+.watch-section1 {
+    background-color:rgb(32, 32, 32);
+    color: white;
+    padding: 50px 30px;
+    display: flex;
+    align-items: flex-start; /* Aligns content at the top */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+    min-height: 90vh; /* Keeps a nice height */
+  }
+  
+  .sec1-left {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    align-self: flex-start; /* Ensures sec1-left aligns to the top */
+  }
+  
+  .sec1-left h1 {
+    font-size: 6rem; /* Font size increased to 4rem */
+    font-weight: bold;
+    margin-bottom: 50px;
+    line-height: 1;
+    letter-spacing: 1px;
+    margin-top: 150px;
+  }
+  
+  .sec1-left h1 strong {
+    color: violet; /* Violet color for "Watch" */
+  }
+  
+  .sec1-left h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #ccc;
+  }
+  
+  .sec1-left p {
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .sec1-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .sec1-right img {
+    max-width: 100%;
+    height: auto;
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  /* Floating animation */
+  @keyframes float {
+    0% { transform: translatey(0px); }
+    50% { transform: translatey(-10px); }
+    100% { transform: translatey(0px); }
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .watch-section1 {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .sec1-left, .sec1-right {
+      flex: unset;
+      width: 100%;
+    }
+  
+    .sec1-left p {
+      max-width: 90%;
+    }
+  }
+  

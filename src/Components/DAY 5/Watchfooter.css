@@ -1,0 +1,23 @@
+.footer-container {
+    background-color: black;  /* Black background */
+    padding: 20px 0;  /* Some padding for the footer */
+    text-align: center;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;  /* Centers the icons horizontally */
+    gap: 50px;  /* Adds space between the icons */
+  }
+  
+  .social-icons a {
+    color: white;  /* White color for the icons */
+    font-size: 30px;  /* Increase the size of the icons */
+    text-decoration: none;  /* Remove the underline from the links */
+    transition: color 0.3s ease;  /* Smooth transition for hover effect */
+  }
+  
+  .social-icons a:hover {
+    color: #ff6347;  /* Change color on hover (you can customize this) */
+  }
+  

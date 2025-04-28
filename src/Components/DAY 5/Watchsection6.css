@@ -1,0 +1,60 @@
+
+
+
+.section6-container {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+  .testimonial {
+    margin-top: 30px;
+  }
+  
+  .testimonial h1 {
+    font-size: 4rem;
+    color: #333;
+    margin-bottom: 0px;
+  }
+  
+  .testimonial p {
+    font-size: 1.2rem;
+    color: #868484;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .testimonial h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .testimonial h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #535251; /* You can change this color as per your theme */
+  }
+  
+  .testimonial-img {
+   
+    
+   
+        width: 100px;
+        height: 100px; /* Force the same width and height */
+        object-fit: cover;
+        border-radius: 50%; /* Now this will work */
+        background-color: #1f1f1f; /* Optional: to show dark behind transparent images */
+       
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 50px;
+      }
+      
+  
+  

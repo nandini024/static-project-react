@@ -1,6 +1,6 @@
 
 
-    import Day5 from "./Components/DAY 5/day5"
+    import Day5 from "./Components/DAY_5/day5"
     
 
 

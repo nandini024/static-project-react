@@ -1,4 +1,4 @@
-import "./watchsection2.css";
+import "./Watchsection2.css";
 
 function Watchsection2() {
   return (
